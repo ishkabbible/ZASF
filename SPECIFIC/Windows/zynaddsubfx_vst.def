@@ -1,0 +1,2 @@
+LIBRARY			ZYNADDSUBFX_VST
+EXPORTS			main=amain 

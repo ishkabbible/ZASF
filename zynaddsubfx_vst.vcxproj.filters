@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quellcodedateien">
+      <UniqueIdentifier>{3575f998-a8a2-4a4c-a242-0c06f1880db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\UI">
+      <UniqueIdentifier>{987ee244-1420-43d7-a704-ba3139bfd3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Synth">
+      <UniqueIdentifier>{125045c2-7a4b-40a5-ad39-7e2460c47f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Params">
+      <UniqueIdentifier>{7994e36e-bc1c-48a3-b275-4d4b6769959b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Output">
+      <UniqueIdentifier>{0d1ee541-9212-418e-b572-2cf6a0c8a56e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Misc">
+      <UniqueIdentifier>{3432df3a-aa2c-47e4-8a6d-df9dfe1584e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Input">
+      <UniqueIdentifier>{ca536311-ea2e-4976-a032-2d1159409596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Effects">
+      <UniqueIdentifier>{d0304a34-48ef-4ced-aaf1-71d7a0f8427a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\DSP">
+      <UniqueIdentifier>{6dacd0b9-8355-4294-ace9-39fa200d1684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Controls">
+      <UniqueIdentifier>{66d1815a-5963-45c3-87e1-075eed966307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Samples">
+      <UniqueIdentifier>{9b6b9c55-f356-4d0e-81c1-db688d97f589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quellcodedateien\Tests">
+      <UniqueIdentifier>{63ec30fd-222a-4816-b593-748a90c51845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header-Dateien">
+      <UniqueIdentifier>{7c7d7110-b469-40a2-9ecb-83271d947c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resourcendateien">
+      <UniqueIdentifier>{309afae4-8170-4ef9-ab59-02e9152e6c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{29b4bce2-ea2b-4c8d-9a6e-5b1f9b3f28d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\VST">
+      <UniqueIdentifier>{dc81eb49-eb4d-4e2d-afad-46bd0f0d83a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SOURCES\main.C">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\ADnoteUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\BankUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\ConfigUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\EffUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\EnvelopeUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\FilterUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\LFOUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\MasterUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\MicrotonalUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\MidiLearnUI.cpp">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\OscilGenUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\PADnoteUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\PartUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\PresetsUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\ResonanceUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\SUBnoteUI.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\VirKeyboard.c">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\UI\WidgetPDial.cpp">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\ADnote.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\Envelope.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\LFO.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\OscilGen.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\PADnote.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\Resonance.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Synth\SUBnote.cpp">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\ADnoteParameters.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\Controller.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\EnvelopeParams.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\FilterParams.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\LFOParams.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\PADnoteParameters.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\Presets.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\PresetsStore.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Params\SUBnoteParameters.CPP">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\DSSIaudiooutput.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\JACK_RTaudiooutput.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\JACKaudiooutput.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\OSSaudiooutput.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\PAaudiooutput.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\Recorder.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\VSTaudiooutput.C">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Output\WAVaudiooutput.cpp">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Bank.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Config.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Dump.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Master.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Microtonal.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\MidiRL.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\ParamID.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Part.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Stereo.cpp">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\Util.CPP">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Misc\XMLwrapper.C">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Input\ALSAMidiIn.C">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Input\MidiIn.C">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Input\NULLMidiIn.C">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Input\OSSMidiIn.C">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Input\WINMidiIn.C">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Alienwah.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Chorus.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Distorsion.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\DynamicFilter.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Echo.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Effect.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\EffectLFO.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\EffectMgr.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\EQ.cpp">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Phaser.CPP">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Effects\Reverb.CPP">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\DSP\AnalogFilter.cpp">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\DSP\FFTwrapper.C">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\DSP\Filter.cpp">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\DSP\FormantFilter.cpp">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\DSP\SVFilter.cpp">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\DSP\Unison.cpp">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Controls\Control.cpp">
+      <Filter>Quellcodedateien\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Controls\DelayCtl.cpp">
+      <Filter>Quellcodedateien\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Samples\AuSample.cpp">
+      <Filter>Quellcodedateien\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Samples\FqSample.cpp">
+      <Filter>Quellcodedateien\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCES\Samples\Sample.cpp">
+      <Filter>Quellcodedateien\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="SPECIFIC\Windows\dirent.c">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\aeffguieditor.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\AudioEffect.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\audioeffectx.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\plugguieditor.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstcontrols.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstgui.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstguitester.cpp">
+      <Filter>Dependencies\VST</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SOURCES\UI\ADnoteUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\BankUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\ConfigUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\EffUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\EnvelopeUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\FilterUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\LFOUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\MasterUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\MicrotonalUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\MidiLearnUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\OscilGenUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\PADnoteUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\PartUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\PresetsUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\ResonanceUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\SUBnoteUI.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\VirKeyboard.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\UI\WidgetPDial.h">
+      <Filter>Quellcodedateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\ADnote.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\Envelope.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\LFO.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\OscilGen.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\PADnote.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\Resonance.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Synth\SUBnote.h">
+      <Filter>Quellcodedateien\Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\ADnoteParameters.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\Controller.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\EnvelopeParams.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\FilterParams.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\LFOParams.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\PADnoteParameters.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\Presets.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\PresetsStore.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Params\SUBnoteParameters.h">
+      <Filter>Quellcodedateien\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Output\Recorder.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Output\VSTaudiooutput.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Output\WAVaudiooutput.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Bank.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Config.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Control.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Dump.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Master.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Microtonal.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\MidiRL.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\ParamID.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Part.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Stereo.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\Util.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Misc\XMLwrapper.h">
+      <Filter>Quellcodedateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Input\MidiIn.h">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Input\NULLMidiIn.h">
+      <Filter>Quellcodedateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Alienwah.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Chorus.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Distorsion.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\DynamicFilter.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Echo.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Effect.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\EffectLFO.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\EffectMgr.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\EQ.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Phaser.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Effects\Reverb.h">
+      <Filter>Quellcodedateien\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\AnalogFilter.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\FFTwrapper.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\Filter.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\Filter_.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\FormantFilter.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\SVFilter.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\DSP\Unison.h">
+      <Filter>Quellcodedateien\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Controls\Control.h">
+      <Filter>Quellcodedateien\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Controls\DelayCtl.h">
+      <Filter>Quellcodedateien\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Samples\AuSample.h">
+      <Filter>Quellcodedateien\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Samples\FqSample.h">
+      <Filter>Quellcodedateien\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Samples\Sample.h">
+      <Filter>Quellcodedateien\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Tests\EchoTest.h">
+      <Filter>Quellcodedateien\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\Tests\SampleTest.h">
+      <Filter>Quellcodedateien\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCES\globals.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="SPECIFIC\Windows\resource.h">
+      <Filter>Resourcendateien</Filter>
+    </ClInclude>
+    <ClInclude Include="SPECIFIC\Windows\dirent.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\AEffect.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\aeffectx.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\aeffguieditor.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\audioeffectx.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstcontrols.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstfxstore.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstgui.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstkeycode.h">
+      <Filter>Dependencies\VST</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SPECIFIC\Windows\resource.rc">
+      <Filter>Resourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SPECIFIC\Windows\zynaddsubfx_icon.ico">
+      <Filter>Resourcendateien</Filter>
+    </None>
+    <None Include="SPECIFIC\Windows\zynaddsubfx_panel.bmp">
+      <Filter>Resourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="SOURCES\Output\DSSIaudiooutput.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\Output\JACKaudiooutput.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\Output\OSSaudiooutput.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\Output\PAaudiooutput.h">
+      <Filter>Quellcodedateien\Output</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\Input\ALSAMidiIn.h">
+      <Filter>Quellcodedateien\Input</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\Input\OSSMidiIn.h">
+      <Filter>Quellcodedateien\Input</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\Input\WINMidiIn.h">
+      <Filter>Quellcodedateien\Input</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\plugguieditor.h">
+      <Filter>Dependencies\VST</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstplugscarbon.h">
+      <Filter>Dependencies\VST</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstplugsmac.h">
+      <Filter>Dependencies\VST</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstplugsmacho.h">
+      <Filter>Dependencies\VST</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="..\..\DEPENDENCIES\VSTSDK\SOURCES\vstplugsquartz.h">
+      <Filter>Dependencies\VST</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="SOURCES\zynaddsubfx_vst.def" />
+  </ItemGroup>
+</Project>

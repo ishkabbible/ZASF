@@ -1,0 +1,4 @@
+LIBRARY			ZYNADDSUBFX_VST
+DESCRIPTION		'ZynAddSubFX for VST'
+EXPORTS			amain
+				main=amain 

@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F030C2D0D87E3E6004410CF /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		3F5D35600D9014E200212E42 /* fftwd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F5A50D871886002D1DA6 /* fftwd.a */; };
+		3F5D35610D9014E700212E42 /* fltkd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F59C0D87186F002D1DA6 /* fltkd.a */; };
+		3F5D35620D9014EB00212E42 /* jpegd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F5930D87185F002D1DA6 /* jpegd.a */; };
+		3F5D35630D9014ED00212E42 /* mxmld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F58A0D87184C002D1DA6 /* mxmld.a */; };
+		3F5D35640D9014F100212E42 /* pngd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F5810D871837002D1DA6 /* pngd.a */; };
+		3F5D35650D9014F400212E42 /* portaudiod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F56F0D871803002D1DA6 /* portaudiod.a */; };
+		3F5D35660D9014F700212E42 /* zlibd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79F5650D8717C7002D1DA6 /* zlibd.a */; };
+		3FAF6B690D87E67600FD585B /* XMLwrapper.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E630D87104F0009A914 /* XMLwrapper.C */; };
+		3FAF6B910D87E7BC00FD585B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAF6B900D87E7BC00FD585B /* CoreAudio.framework */; };
+		3FB64ED90D87104F0009A914 /* AnalogFilter.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E110D87104F0009A914 /* AnalogFilter.C */; };
+		3FB64EDA0D87104F0009A914 /* FFTwrapper.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E130D87104F0009A914 /* FFTwrapper.C */; };
+		3FB64EDB0D87104F0009A914 /* Filter.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E150D87104F0009A914 /* Filter.C */; };
+		3FB64EDC0D87104F0009A914 /* FormantFilter.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E180D87104F0009A914 /* FormantFilter.C */; };
+		3FB64EDE0D87104F0009A914 /* SVFilter.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E1B0D87104F0009A914 /* SVFilter.C */; };
+		3FB64EDF0D87104F0009A914 /* Alienwah.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E1E0D87104F0009A914 /* Alienwah.C */; };
+		3FB64EE00D87104F0009A914 /* Chorus.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E200D87104F0009A914 /* Chorus.C */; };
+		3FB64EE10D87104F0009A914 /* Distorsion.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E220D87104F0009A914 /* Distorsion.C */; };
+		3FB64EE20D87104F0009A914 /* DynamicFilter.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E240D87104F0009A914 /* DynamicFilter.C */; };
+		3FB64EE30D87104F0009A914 /* Echo.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E260D87104F0009A914 /* Echo.C */; };
+		3FB64EE40D87104F0009A914 /* Effect.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E280D87104F0009A914 /* Effect.C */; };
+		3FB64EE50D87104F0009A914 /* EffectLFO.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E2A0D87104F0009A914 /* EffectLFO.C */; };
+		3FB64EE60D87104F0009A914 /* EffectMgr.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E2C0D87104F0009A914 /* EffectMgr.C */; };
+		3FB64EE70D87104F0009A914 /* EQ.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E2E0D87104F0009A914 /* EQ.C */; };
+		3FB64EE90D87104F0009A914 /* Phaser.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E310D87104F0009A914 /* Phaser.C */; };
+		3FB64EEA0D87104F0009A914 /* Reverb.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E330D87104F0009A914 /* Reverb.C */; };
+		3FB64EF90D87104F0009A914 /* MidiIn.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E4A0D87104F0009A914 /* MidiIn.C */; };
+		3FB64EFA0D87104F0009A914 /* NULLMidiIn.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E4C0D87104F0009A914 /* NULLMidiIn.C */; };
+		3FB64EFD0D87104F0009A914 /* main.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E520D87104F0009A914 /* main.C */; };
+		3FB64EFE0D87104F0009A914 /* Bank.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E540D87104F0009A914 /* Bank.C */; };
+		3FB64EFF0D87104F0009A914 /* Config.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E560D87104F0009A914 /* Config.C */; };
+		3FB64F000D87104F0009A914 /* Dump.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E580D87104F0009A914 /* Dump.C */; };
+		3FB64F020D87104F0009A914 /* Master.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E5B0D87104F0009A914 /* Master.C */; };
+		3FB64F030D87104F0009A914 /* Microtonal.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E5D0D87104F0009A914 /* Microtonal.C */; };
+		3FB64F040D87104F0009A914 /* Part.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E5F0D87104F0009A914 /* Part.C */; };
+		3FB64F050D87104F0009A914 /* Util.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E610D87104F0009A914 /* Util.C */; };
+		3FB64F0C0D87104F0009A914 /* PAaudiooutput.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E6E0D87104F0009A914 /* PAaudiooutput.C */; };
+		3FB64F0D0D87104F0009A914 /* Recorder.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E700D87104F0009A914 /* Recorder.C */; };
+		3FB64F0F0D87104F0009A914 /* ADnoteParameters.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E750D87104F0009A914 /* ADnoteParameters.C */; };
+		3FB64F100D87104F0009A914 /* Controller.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E770D87104F0009A914 /* Controller.C */; };
+		3FB64F110D87104F0009A914 /* EnvelopeParams.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E790D87104F0009A914 /* EnvelopeParams.C */; };
+		3FB64F120D87104F0009A914 /* FilterParams.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E7B0D87104F0009A914 /* FilterParams.C */; };
+		3FB64F130D87104F0009A914 /* LFOParams.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E7D0D87104F0009A914 /* LFOParams.C */; };
+		3FB64F150D87104F0009A914 /* PADnoteParameters.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E800D87104F0009A914 /* PADnoteParameters.C */; };
+		3FB64F160D87104F0009A914 /* Presets.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E820D87104F0009A914 /* Presets.C */; };
+		3FB64F170D87104F0009A914 /* PresetsStore.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E840D87104F0009A914 /* PresetsStore.C */; };
+		3FB64F180D87104F0009A914 /* SUBnoteParameters.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E860D87104F0009A914 /* SUBnoteParameters.C */; };
+		3FB64F1A0D87104F0009A914 /* MIDIEvents.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E8A0D87104F0009A914 /* MIDIEvents.C */; };
+		3FB64F1B0D87104F0009A914 /* MIDIFile.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E8C0D87104F0009A914 /* MIDIFile.C */; };
+		3FB64F1C0D87104F0009A914 /* Sequencer.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E8E0D87104F0009A914 /* Sequencer.C */; };
+		3FB64F1D0D87104F0009A914 /* ADnote.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E910D87104F0009A914 /* ADnote.C */; };
+		3FB64F1E0D87104F0009A914 /* Envelope.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E930D87104F0009A914 /* Envelope.C */; };
+		3FB64F1F0D87104F0009A914 /* LFO.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E950D87104F0009A914 /* LFO.C */; };
+		3FB64F210D87104F0009A914 /* OscilGen.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E980D87104F0009A914 /* OscilGen.C */; };
+		3FB64F220D87104F0009A914 /* PADnote.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E9A0D87104F0009A914 /* PADnote.C */; };
+		3FB64F230D87104F0009A914 /* Resonance.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E9C0D87104F0009A914 /* Resonance.C */; };
+		3FB64F240D87104F0009A914 /* SUBnote.C in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64E9E0D87104F0009A914 /* SUBnote.C */; };
+		3FB64F250D87104F0009A914 /* ADnoteUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EA10D87104F0009A914 /* ADnoteUI.c */; };
+		3FB64F270D87104F0009A914 /* BankUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EA40D87104F0009A914 /* BankUI.c */; };
+		3FB64F290D87104F0009A914 /* ConfigUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EA70D87104F0009A914 /* ConfigUI.c */; };
+		3FB64F2B0D87104F0009A914 /* EffUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EAA0D87104F0009A914 /* EffUI.c */; };
+		3FB64F2D0D87104F0009A914 /* EnvelopeUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EAD0D87104F0009A914 /* EnvelopeUI.c */; };
+		3FB64F2F0D87104F0009A914 /* FilterUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EB00D87104F0009A914 /* FilterUI.c */; };
+		3FB64F310D87104F0009A914 /* LFOUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EB30D87104F0009A914 /* LFOUI.c */; };
+		3FB64F340D87104F0009A914 /* MasterUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EB70D87104F0009A914 /* MasterUI.c */; };
+		3FB64F360D87104F0009A914 /* MicrotonalUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EBA0D87104F0009A914 /* MicrotonalUI.c */; };
+		3FB64F380D87104F0009A914 /* OscilGenUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EBD0D87104F0009A914 /* OscilGenUI.c */; };
+		3FB64F3A0D87104F0009A914 /* PADnoteUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EC00D87104F0009A914 /* PADnoteUI.c */; };
+		3FB64F3C0D87104F0009A914 /* PartUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EC30D87104F0009A914 /* PartUI.c */; };
+		3FB64F3E0D87104F0009A914 /* PresetsUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EC60D87104F0009A914 /* PresetsUI.c */; };
+		3FB64F400D87104F0009A914 /* ResonanceUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64EC90D87104F0009A914 /* ResonanceUI.c */; };
+		3FB64F420D87104F0009A914 /* SeqUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64ECC0D87104F0009A914 /* SeqUI.c */; };
+		3FB64F440D87104F0009A914 /* SUBnoteUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64ECF0D87104F0009A914 /* SUBnoteUI.c */; };
+		3FB64F460D87104F0009A914 /* VirKeyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64ED20D87104F0009A914 /* VirKeyboard.c */; };
+		3FB64F480D87104F0009A914 /* WidgetPDial.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FB64ED50D87104F0009A914 /* WidgetPDial.c */; };
+		8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		8D0C4E8E0486CD37000505A6 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 02345980000FD03B11CA0E72 /* main.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F79F5640D8717C7002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F55D0D8717C7002D1DA6 /* zlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = zlib;
+		};
+		3F79F56E0D871803002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5670D871803002D1DA6 /* portaudio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = portaudio;
+		};
+		3F79F5800D871837002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5790D871837002D1DA6 /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = png;
+		};
+		3F79F5890D87184C002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5820D87184C002D1DA6 /* mxml.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = mxml;
+		};
+		3F79F5920D87185F002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F58B0D87185F002D1DA6 /* jpeg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = jpeg;
+		};
+		3F79F59B0D87186F002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5940D87186F002D1DA6 /* fltk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC06F0554671400DB518D;
+			remoteInfo = fltk;
+		};
+		3F79F5A40D871886002D1DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F59D0D871886002D1DA6 /* fftw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = fftw;
+		};
+		3FC0C41E0D883AC000A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5820D87184C002D1DA6 /* mxml.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = mxml;
+		};
+		3FC0C4200D883AD400A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5790D871837002D1DA6 /* png.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = png;
+		};
+		3FC0C4220D883AD400A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F58B0D87185F002D1DA6 /* jpeg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = jpeg;
+		};
+		3FC0C4240D883AD400A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5940D87186F002D1DA6 /* fltk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC06E0554671400DB518D;
+			remoteInfo = fltk;
+		};
+		3FC0C4260D883AD400A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F5670D871803002D1DA6 /* portaudio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = portaudio;
+		};
+		3FC0C4280D883AD400A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F59D0D871886002D1DA6 /* fftw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = fftw;
+		};
+		3FC0C42A0D883AD400A1FF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F79F55D0D8717C7002D1DA6 /* zlib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = zlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D6ABFE840B52C02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = SPECIFIC/Macintosh/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1870340FFE93FCAF11CA0CD7 /* English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English.lproj; path = SPECIFIC/Macintosh/English.lproj; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3F030BDC0D87CE17004410CF /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globals.h; path = SOURCES/globals.h; sourceTree = SOURCE_ROOT; };
+		3F79F55D0D8717C7002D1DA6 /* zlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zlib.xcodeproj; path = ../../DEPENDENCIES/ZLIB/zlib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3F79F5670D871803002D1DA6 /* portaudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = portaudio.xcodeproj; path = ../../DEPENDENCIES/PORTAUDIO/portaudio.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3F79F5790D871837002D1DA6 /* png.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = png.xcodeproj; path = ../../DEPENDENCIES/PNG/png.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3F79F5820D87184C002D1DA6 /* mxml.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mxml.xcodeproj; path = ../../DEPENDENCIES/MXML/mxml.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3F79F58B0D87185F002D1DA6 /* jpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jpeg.xcodeproj; path = ../../DEPENDENCIES/JPEG/jpeg.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3F79F5940D87186F002D1DA6 /* fltk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fltk.xcodeproj; path = ../../DEPENDENCIES/FLTK/fltk.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3F79F59D0D871886002D1DA6 /* fftw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fftw.xcodeproj; path = ../../DEPENDENCIES/FFTW/fftw.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3FAF6B900D87E7BC00FD585B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		3FB64E110D87104F0009A914 /* AnalogFilter.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnalogFilter.C; path = SOURCES/DSP/AnalogFilter.C; sourceTree = SOURCE_ROOT; };
+		3FB64E130D87104F0009A914 /* FFTwrapper.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFTwrapper.C; path = SOURCES/DSP/FFTwrapper.C; sourceTree = SOURCE_ROOT; };
+		3FB64E150D87104F0009A914 /* Filter.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Filter.C; path = SOURCES/DSP/Filter.C; sourceTree = SOURCE_ROOT; };
+		3FB64E180D87104F0009A914 /* FormantFilter.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FormantFilter.C; path = SOURCES/DSP/FormantFilter.C; sourceTree = SOURCE_ROOT; };
+		3FB64E1B0D87104F0009A914 /* SVFilter.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SVFilter.C; path = SOURCES/DSP/SVFilter.C; sourceTree = SOURCE_ROOT; };
+		3FB64E1E0D87104F0009A914 /* Alienwah.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Alienwah.C; path = SOURCES/Effects/Alienwah.C; sourceTree = SOURCE_ROOT; };
+		3FB64E200D87104F0009A914 /* Chorus.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Chorus.C; path = SOURCES/Effects/Chorus.C; sourceTree = SOURCE_ROOT; };
+		3FB64E220D87104F0009A914 /* Distorsion.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Distorsion.C; path = SOURCES/Effects/Distorsion.C; sourceTree = SOURCE_ROOT; };
+		3FB64E240D87104F0009A914 /* DynamicFilter.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicFilter.C; path = SOURCES/Effects/DynamicFilter.C; sourceTree = SOURCE_ROOT; };
+		3FB64E260D87104F0009A914 /* Echo.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Echo.C; path = SOURCES/Effects/Echo.C; sourceTree = SOURCE_ROOT; };
+		3FB64E280D87104F0009A914 /* Effect.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.C; path = SOURCES/Effects/Effect.C; sourceTree = SOURCE_ROOT; };
+		3FB64E2A0D87104F0009A914 /* EffectLFO.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EffectLFO.C; path = SOURCES/Effects/EffectLFO.C; sourceTree = SOURCE_ROOT; };
+		3FB64E2C0D87104F0009A914 /* EffectMgr.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EffectMgr.C; path = SOURCES/Effects/EffectMgr.C; sourceTree = SOURCE_ROOT; };
+		3FB64E2E0D87104F0009A914 /* EQ.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EQ.C; path = SOURCES/Effects/EQ.C; sourceTree = SOURCE_ROOT; };
+		3FB64E310D87104F0009A914 /* Phaser.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Phaser.C; path = SOURCES/Effects/Phaser.C; sourceTree = SOURCE_ROOT; };
+		3FB64E330D87104F0009A914 /* Reverb.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Reverb.C; path = SOURCES/Effects/Reverb.C; sourceTree = SOURCE_ROOT; };
+		3FB64E390D87104F0009A914 /* Controller.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.C; path = SOURCES/ExternalPrograms/Controller/Controller.C; sourceTree = SOURCE_ROOT; };
+		3FB64E3C0D87104F0009A914 /* main.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.C; path = SOURCES/ExternalPrograms/Controller/main.C; sourceTree = SOURCE_ROOT; };
+		3FB64E410D87104F0009A914 /* main.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.C; path = SOURCES/ExternalPrograms/Spliter/main.C; sourceTree = SOURCE_ROOT; };
+		3FB64E430D87104F0009A914 /* Spliter.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Spliter.C; path = SOURCES/ExternalPrograms/Spliter/Spliter.C; sourceTree = SOURCE_ROOT; };
+		3FB64E470D87104F0009A914 /* ALSAMidiIn.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ALSAMidiIn.C; path = SOURCES/Input/ALSAMidiIn.C; sourceTree = SOURCE_ROOT; };
+		3FB64E4A0D87104F0009A914 /* MidiIn.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MidiIn.C; path = SOURCES/Input/MidiIn.C; sourceTree = SOURCE_ROOT; };
+		3FB64E4C0D87104F0009A914 /* NULLMidiIn.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NULLMidiIn.C; path = SOURCES/Input/NULLMidiIn.C; sourceTree = SOURCE_ROOT; };
+		3FB64E4E0D87104F0009A914 /* OSSMidiIn.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OSSMidiIn.C; path = SOURCES/Input/OSSMidiIn.C; sourceTree = SOURCE_ROOT; };
+		3FB64E500D87104F0009A914 /* WINMidiIn.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WINMidiIn.C; path = SOURCES/Input/WINMidiIn.C; sourceTree = SOURCE_ROOT; };
+		3FB64E520D87104F0009A914 /* main.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.C; path = SOURCES/main.C; sourceTree = SOURCE_ROOT; };
+		3FB64E540D87104F0009A914 /* Bank.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bank.C; path = SOURCES/Misc/Bank.C; sourceTree = SOURCE_ROOT; };
+		3FB64E560D87104F0009A914 /* Config.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Config.C; path = SOURCES/Misc/Config.C; sourceTree = SOURCE_ROOT; };
+		3FB64E580D87104F0009A914 /* Dump.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dump.C; path = SOURCES/Misc/Dump.C; sourceTree = SOURCE_ROOT; };
+		3FB64E5B0D87104F0009A914 /* Master.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Master.C; path = SOURCES/Misc/Master.C; sourceTree = SOURCE_ROOT; };
+		3FB64E5D0D87104F0009A914 /* Microtonal.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Microtonal.C; path = SOURCES/Misc/Microtonal.C; sourceTree = SOURCE_ROOT; };
+		3FB64E5F0D87104F0009A914 /* Part.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Part.C; path = SOURCES/Misc/Part.C; sourceTree = SOURCE_ROOT; };
+		3FB64E610D87104F0009A914 /* Util.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.C; path = SOURCES/Misc/Util.C; sourceTree = SOURCE_ROOT; };
+		3FB64E630D87104F0009A914 /* XMLwrapper.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMLwrapper.C; path = SOURCES/Misc/XMLwrapper.C; sourceTree = SOURCE_ROOT; };
+		3FB64E660D87104F0009A914 /* DSSIaudiooutput.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DSSIaudiooutput.C; path = SOURCES/Output/DSSIaudiooutput.C; sourceTree = SOURCE_ROOT; };
+		3FB64E680D87104F0009A914 /* JACK_RTaudiooutput.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JACK_RTaudiooutput.C; path = SOURCES/Output/JACK_RTaudiooutput.C; sourceTree = SOURCE_ROOT; };
+		3FB64E690D87104F0009A914 /* JACKaudiooutput.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JACKaudiooutput.C; path = SOURCES/Output/JACKaudiooutput.C; sourceTree = SOURCE_ROOT; };
+		3FB64E6C0D87104F0009A914 /* OSSaudiooutput.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OSSaudiooutput.C; path = SOURCES/Output/OSSaudiooutput.C; sourceTree = SOURCE_ROOT; };
+		3FB64E6E0D87104F0009A914 /* PAaudiooutput.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PAaudiooutput.C; path = SOURCES/Output/PAaudiooutput.C; sourceTree = SOURCE_ROOT; };
+		3FB64E700D87104F0009A914 /* Recorder.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recorder.C; path = SOURCES/Output/Recorder.C; sourceTree = SOURCE_ROOT; };
+		3FB64E720D87104F0009A914 /* VSTaudiooutput.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VSTaudiooutput.C; path = SOURCES/Output/VSTaudiooutput.C; sourceTree = SOURCE_ROOT; };
+		3FB64E750D87104F0009A914 /* ADnoteParameters.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ADnoteParameters.C; path = SOURCES/Params/ADnoteParameters.C; sourceTree = SOURCE_ROOT; };
+		3FB64E770D87104F0009A914 /* Controller.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.C; path = SOURCES/Params/Controller.C; sourceTree = SOURCE_ROOT; };
+		3FB64E790D87104F0009A914 /* EnvelopeParams.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EnvelopeParams.C; path = SOURCES/Params/EnvelopeParams.C; sourceTree = SOURCE_ROOT; };
+		3FB64E7B0D87104F0009A914 /* FilterParams.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilterParams.C; path = SOURCES/Params/FilterParams.C; sourceTree = SOURCE_ROOT; };
+		3FB64E7D0D87104F0009A914 /* LFOParams.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LFOParams.C; path = SOURCES/Params/LFOParams.C; sourceTree = SOURCE_ROOT; };
+		3FB64E800D87104F0009A914 /* PADnoteParameters.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PADnoteParameters.C; path = SOURCES/Params/PADnoteParameters.C; sourceTree = SOURCE_ROOT; };
+		3FB64E820D87104F0009A914 /* Presets.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Presets.C; path = SOURCES/Params/Presets.C; sourceTree = SOURCE_ROOT; };
+		3FB64E840D87104F0009A914 /* PresetsStore.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PresetsStore.C; path = SOURCES/Params/PresetsStore.C; sourceTree = SOURCE_ROOT; };
+		3FB64E860D87104F0009A914 /* SUBnoteParameters.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SUBnoteParameters.C; path = SOURCES/Params/SUBnoteParameters.C; sourceTree = SOURCE_ROOT; };
+		3FB64E8A0D87104F0009A914 /* MIDIEvents.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIEvents.C; path = SOURCES/Seq/MIDIEvents.C; sourceTree = SOURCE_ROOT; };
+		3FB64E8C0D87104F0009A914 /* MIDIFile.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIFile.C; path = SOURCES/Seq/MIDIFile.C; sourceTree = SOURCE_ROOT; };
+		3FB64E8E0D87104F0009A914 /* Sequencer.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sequencer.C; path = SOURCES/Seq/Sequencer.C; sourceTree = SOURCE_ROOT; };
+		3FB64E910D87104F0009A914 /* ADnote.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ADnote.C; path = SOURCES/Synth/ADnote.C; sourceTree = SOURCE_ROOT; };
+		3FB64E930D87104F0009A914 /* Envelope.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Envelope.C; path = SOURCES/Synth/Envelope.C; sourceTree = SOURCE_ROOT; };
+		3FB64E950D87104F0009A914 /* LFO.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LFO.C; path = SOURCES/Synth/LFO.C; sourceTree = SOURCE_ROOT; };
+		3FB64E980D87104F0009A914 /* OscilGen.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscilGen.C; path = SOURCES/Synth/OscilGen.C; sourceTree = SOURCE_ROOT; };
+		3FB64E9A0D87104F0009A914 /* PADnote.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PADnote.C; path = SOURCES/Synth/PADnote.C; sourceTree = SOURCE_ROOT; };
+		3FB64E9C0D87104F0009A914 /* Resonance.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Resonance.C; path = SOURCES/Synth/Resonance.C; sourceTree = SOURCE_ROOT; };
+		3FB64E9E0D87104F0009A914 /* SUBnote.C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SUBnote.C; path = SOURCES/Synth/SUBnote.C; sourceTree = SOURCE_ROOT; };
+		3FB64EA10D87104F0009A914 /* ADnoteUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ADnoteUI.c; path = SOURCES/UI/ADnoteUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EA40D87104F0009A914 /* BankUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BankUI.c; path = SOURCES/UI/BankUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EA70D87104F0009A914 /* ConfigUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConfigUI.c; path = SOURCES/UI/ConfigUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EAA0D87104F0009A914 /* EffUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = EffUI.c; path = SOURCES/UI/EffUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EAD0D87104F0009A914 /* EnvelopeUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = EnvelopeUI.c; path = SOURCES/UI/EnvelopeUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EB00D87104F0009A914 /* FilterUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = FilterUI.c; path = SOURCES/UI/FilterUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EB30D87104F0009A914 /* LFOUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = LFOUI.c; path = SOURCES/UI/LFOUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EB70D87104F0009A914 /* MasterUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MasterUI.c; path = SOURCES/UI/MasterUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EBA0D87104F0009A914 /* MicrotonalUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MicrotonalUI.c; path = SOURCES/UI/MicrotonalUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EBD0D87104F0009A914 /* OscilGenUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = OscilGenUI.c; path = SOURCES/UI/OscilGenUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EC00D87104F0009A914 /* PADnoteUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PADnoteUI.c; path = SOURCES/UI/PADnoteUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EC30D87104F0009A914 /* PartUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PartUI.c; path = SOURCES/UI/PartUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EC60D87104F0009A914 /* PresetsUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PresetsUI.c; path = SOURCES/UI/PresetsUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64EC90D87104F0009A914 /* ResonanceUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ResonanceUI.c; path = SOURCES/UI/ResonanceUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64ECC0D87104F0009A914 /* SeqUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SeqUI.c; path = SOURCES/UI/SeqUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64ECF0D87104F0009A914 /* SUBnoteUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SUBnoteUI.c; path = SOURCES/UI/SUBnoteUI.c; sourceTree = SOURCE_ROOT; };
+		3FB64ED20D87104F0009A914 /* VirKeyboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = VirKeyboard.c; path = SOURCES/UI/VirKeyboard.c; sourceTree = SOURCE_ROOT; };
+		3FB64ED50D87104F0009A914 /* WidgetPDial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = WidgetPDial.c; path = SOURCES/UI/WidgetPDial.c; sourceTree = SOURCE_ROOT; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SPECIFIC/Macintosh/Info.plist; sourceTree = "<group>"; };
+		8D0C4E970486CD37000505A6 /* ZynAddSubFX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZynAddSubFX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5D35660D9014F700212E42 /* zlibd.a in Frameworks */,
+				3F5D35650D9014F400212E42 /* portaudiod.a in Frameworks */,
+				3F5D35640D9014F100212E42 /* pngd.a in Frameworks */,
+				3F5D35630D9014ED00212E42 /* mxmld.a in Frameworks */,
+				3F5D35620D9014EB00212E42 /* jpegd.a in Frameworks */,
+				3F5D35610D9014E700212E42 /* fltkd.a in Frameworks */,
+				3F5D35600D9014E200212E42 /* fftwd.a in Frameworks */,
+				3F030C2D0D87E3E6004410CF /* Carbon.framework in Frameworks */,
+				3FAF6B910D87E7BC00FD585B /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E970486CD37000505A6 /* ZynAddSubFX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* ZynAddSubFX */ = {
+			isa = PBXGroup;
+			children = (
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			name = ZynAddSubFX;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3F030BDC0D87CE17004410CF /* globals.h */,
+				3FB64E100D87104F0009A914 /* DSP */,
+				3FB64E1D0D87104F0009A914 /* Effects */,
+				3FB64E350D87104F0009A914 /* ExternalPrograms */,
+				3FB64E460D87104F0009A914 /* Input */,
+				3FB64E520D87104F0009A914 /* main.C */,
+				3FB64E530D87104F0009A914 /* Misc */,
+				3FB64E650D87104F0009A914 /* Output */,
+				3FB64E740D87104F0009A914 /* Params */,
+				3FB64E880D87104F0009A914 /* Seq */,
+				3FB64E900D87104F0009A914 /* Synth */,
+				3FB64EA00D87104F0009A914 /* UI */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+				02345980000FD03B11CA0E72 /* main.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				3FAF6B900D87E7BC00FD585B /* CoreAudio.framework */,
+				3F79F59D0D871886002D1DA6 /* fftw.xcodeproj */,
+				3F79F5940D87186F002D1DA6 /* fltk.xcodeproj */,
+				3F79F58B0D87185F002D1DA6 /* jpeg.xcodeproj */,
+				3F79F5820D87184C002D1DA6 /* mxml.xcodeproj */,
+				3F79F5790D871837002D1DA6 /* png.xcodeproj */,
+				3F79F5670D871803002D1DA6 /* portaudio.xcodeproj */,
+				3F79F55D0D8717C7002D1DA6 /* zlib.xcodeproj */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		3F79F55E0D8717C7002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F5650D8717C7002D1DA6 /* zlibd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79F5680D871803002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F56F0D871803002D1DA6 /* portaudiod.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79F57A0D871837002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F5810D871837002D1DA6 /* pngd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79F5830D87184C002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F58A0D87184C002D1DA6 /* mxmld.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79F58C0D87185F002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F5930D87185F002D1DA6 /* jpegd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79F5950D87186F002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F59C0D87186F002D1DA6 /* fltkd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79F59E0D871886002D1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79F5A50D871886002D1DA6 /* fftwd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB64E100D87104F0009A914 /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E110D87104F0009A914 /* AnalogFilter.C */,
+				3FB64E130D87104F0009A914 /* FFTwrapper.C */,
+				3FB64E150D87104F0009A914 /* Filter.C */,
+				3FB64E180D87104F0009A914 /* FormantFilter.C */,
+				3FB64E1B0D87104F0009A914 /* SVFilter.C */,
+			);
+			name = DSP;
+			path = SOURCES/DSP;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E1D0D87104F0009A914 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E1E0D87104F0009A914 /* Alienwah.C */,
+				3FB64E200D87104F0009A914 /* Chorus.C */,
+				3FB64E220D87104F0009A914 /* Distorsion.C */,
+				3FB64E240D87104F0009A914 /* DynamicFilter.C */,
+				3FB64E260D87104F0009A914 /* Echo.C */,
+				3FB64E280D87104F0009A914 /* Effect.C */,
+				3FB64E2A0D87104F0009A914 /* EffectLFO.C */,
+				3FB64E2C0D87104F0009A914 /* EffectMgr.C */,
+				3FB64E2E0D87104F0009A914 /* EQ.C */,
+				3FB64E310D87104F0009A914 /* Phaser.C */,
+				3FB64E330D87104F0009A914 /* Reverb.C */,
+			);
+			name = Effects;
+			path = SOURCES/Effects;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E350D87104F0009A914 /* ExternalPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E360D87104F0009A914 /* Controller */,
+				3FB64E3E0D87104F0009A914 /* Spliter */,
+			);
+			name = ExternalPrograms;
+			path = SOURCES/ExternalPrograms;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E360D87104F0009A914 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E390D87104F0009A914 /* Controller.C */,
+				3FB64E3C0D87104F0009A914 /* main.C */,
+			);
+			name = Controller;
+			path = SOURCES/ExternalPrograms/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E3E0D87104F0009A914 /* Spliter */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E410D87104F0009A914 /* main.C */,
+				3FB64E430D87104F0009A914 /* Spliter.C */,
+			);
+			name = Spliter;
+			path = SOURCES/ExternalPrograms/Spliter;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E460D87104F0009A914 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E470D87104F0009A914 /* ALSAMidiIn.C */,
+				3FB64E4A0D87104F0009A914 /* MidiIn.C */,
+				3FB64E4C0D87104F0009A914 /* NULLMidiIn.C */,
+				3FB64E4E0D87104F0009A914 /* OSSMidiIn.C */,
+				3FB64E500D87104F0009A914 /* WINMidiIn.C */,
+			);
+			name = Input;
+			path = SOURCES/Input;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E530D87104F0009A914 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E540D87104F0009A914 /* Bank.C */,
+				3FB64E560D87104F0009A914 /* Config.C */,
+				3FB64E580D87104F0009A914 /* Dump.C */,
+				3FB64E5B0D87104F0009A914 /* Master.C */,
+				3FB64E5D0D87104F0009A914 /* Microtonal.C */,
+				3FB64E5F0D87104F0009A914 /* Part.C */,
+				3FB64E610D87104F0009A914 /* Util.C */,
+				3FB64E630D87104F0009A914 /* XMLwrapper.C */,
+			);
+			name = Misc;
+			path = SOURCES/Misc;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E650D87104F0009A914 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E660D87104F0009A914 /* DSSIaudiooutput.C */,
+				3FB64E680D87104F0009A914 /* JACK_RTaudiooutput.C */,
+				3FB64E690D87104F0009A914 /* JACKaudiooutput.C */,
+				3FB64E6C0D87104F0009A914 /* OSSaudiooutput.C */,
+				3FB64E6E0D87104F0009A914 /* PAaudiooutput.C */,
+				3FB64E700D87104F0009A914 /* Recorder.C */,
+				3FB64E720D87104F0009A914 /* VSTaudiooutput.C */,
+			);
+			name = Output;
+			path = SOURCES/Output;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E740D87104F0009A914 /* Params */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E750D87104F0009A914 /* ADnoteParameters.C */,
+				3FB64E770D87104F0009A914 /* Controller.C */,
+				3FB64E790D87104F0009A914 /* EnvelopeParams.C */,
+				3FB64E7B0D87104F0009A914 /* FilterParams.C */,
+				3FB64E7D0D87104F0009A914 /* LFOParams.C */,
+				3FB64E800D87104F0009A914 /* PADnoteParameters.C */,
+				3FB64E820D87104F0009A914 /* Presets.C */,
+				3FB64E840D87104F0009A914 /* PresetsStore.C */,
+				3FB64E860D87104F0009A914 /* SUBnoteParameters.C */,
+			);
+			name = Params;
+			path = SOURCES/Params;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E880D87104F0009A914 /* Seq */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E8A0D87104F0009A914 /* MIDIEvents.C */,
+				3FB64E8C0D87104F0009A914 /* MIDIFile.C */,
+				3FB64E8E0D87104F0009A914 /* Sequencer.C */,
+			);
+			name = Seq;
+			path = SOURCES/Seq;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64E900D87104F0009A914 /* Synth */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64E910D87104F0009A914 /* ADnote.C */,
+				3FB64E930D87104F0009A914 /* Envelope.C */,
+				3FB64E950D87104F0009A914 /* LFO.C */,
+				3FB64E980D87104F0009A914 /* OscilGen.C */,
+				3FB64E9A0D87104F0009A914 /* PADnote.C */,
+				3FB64E9C0D87104F0009A914 /* Resonance.C */,
+				3FB64E9E0D87104F0009A914 /* SUBnote.C */,
+			);
+			name = Synth;
+			path = SOURCES/Synth;
+			sourceTree = SOURCE_ROOT;
+		};
+		3FB64EA00D87104F0009A914 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3FB64EA10D87104F0009A914 /* ADnoteUI.c */,
+				3FB64EA40D87104F0009A914 /* BankUI.c */,
+				3FB64EA70D87104F0009A914 /* ConfigUI.c */,
+				3FB64EAA0D87104F0009A914 /* EffUI.c */,
+				3FB64EAD0D87104F0009A914 /* EnvelopeUI.c */,
+				3FB64EB00D87104F0009A914 /* FilterUI.c */,
+				3FB64EB30D87104F0009A914 /* LFOUI.c */,
+				3FB64EB70D87104F0009A914 /* MasterUI.c */,
+				3FB64EBA0D87104F0009A914 /* MicrotonalUI.c */,
+				3FB64EBD0D87104F0009A914 /* OscilGenUI.c */,
+				3FB64EC00D87104F0009A914 /* PADnoteUI.c */,
+				3FB64EC30D87104F0009A914 /* PartUI.c */,
+				3FB64EC60D87104F0009A914 /* PresetsUI.c */,
+				3FB64EC90D87104F0009A914 /* ResonanceUI.c */,
+				3FB64ECC0D87104F0009A914 /* SeqUI.c */,
+				3FB64ECF0D87104F0009A914 /* SUBnoteUI.c */,
+				3FB64ED20D87104F0009A914 /* VirKeyboard.c */,
+				3FB64ED50D87104F0009A914 /* WidgetPDial.c */,
+			);
+			name = UI;
+			path = SOURCES/UI;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* ZynAddSubFX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "ZynAddSubFX" */;
+			buildPhases = (
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC0C41F0D883AC000A1FF83 /* PBXTargetDependency */,
+				3FC0C4210D883AD400A1FF83 /* PBXTargetDependency */,
+				3FC0C4230D883AD400A1FF83 /* PBXTargetDependency */,
+				3FC0C4250D883AD400A1FF83 /* PBXTargetDependency */,
+				3FC0C4270D883AD400A1FF83 /* PBXTargetDependency */,
+				3FC0C4290D883AD400A1FF83 /* PBXTargetDependency */,
+				3FC0C42B0D883AD400A1FF83 /* PBXTargetDependency */,
+			);
+			name = ZynAddSubFX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ZynAddSubFX;
+			productReference = 8D0C4E970486CD37000505A6 /* ZynAddSubFX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "zynaddsubfx" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* ZynAddSubFX */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3F79F59E0D871886002D1DA6 /* Products */;
+					ProjectRef = 3F79F59D0D871886002D1DA6 /* fftw.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F79F5950D87186F002D1DA6 /* Products */;
+					ProjectRef = 3F79F5940D87186F002D1DA6 /* fltk.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F79F58C0D87185F002D1DA6 /* Products */;
+					ProjectRef = 3F79F58B0D87185F002D1DA6 /* jpeg.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F79F5830D87184C002D1DA6 /* Products */;
+					ProjectRef = 3F79F5820D87184C002D1DA6 /* mxml.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F79F57A0D871837002D1DA6 /* Products */;
+					ProjectRef = 3F79F5790D871837002D1DA6 /* png.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F79F5680D871803002D1DA6 /* Products */;
+					ProjectRef = 3F79F5670D871803002D1DA6 /* portaudio.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F79F55E0D8717C7002D1DA6 /* Products */;
+					ProjectRef = 3F79F55D0D8717C7002D1DA6 /* zlib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D0C4E890486CD37000505A6 /* ZynAddSubFX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3F79F5650D8717C7002D1DA6 /* zlibd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = zlibd.a;
+			remoteRef = 3F79F5640D8717C7002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F79F56F0D871803002D1DA6 /* portaudiod.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = portaudiod.a;
+			remoteRef = 3F79F56E0D871803002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F79F5810D871837002D1DA6 /* pngd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = pngd.a;
+			remoteRef = 3F79F5800D871837002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F79F58A0D87184C002D1DA6 /* mxmld.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = mxmld.a;
+			remoteRef = 3F79F5890D87184C002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F79F5930D87185F002D1DA6 /* jpegd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = jpegd.a;
+			remoteRef = 3F79F5920D87185F002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F79F59C0D87186F002D1DA6 /* fltkd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = fltkd.a;
+			remoteRef = 3F79F59B0D87186F002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F79F5A50D871886002D1DA6 /* fftwd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = fftwd.a;
+			remoteRef = 3F79F5A40D871886002D1DA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */,
+				8D0C4E8E0486CD37000505A6 /* main.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB64ED90D87104F0009A914 /* AnalogFilter.C in Sources */,
+				3FB64EDA0D87104F0009A914 /* FFTwrapper.C in Sources */,
+				3FB64EDB0D87104F0009A914 /* Filter.C in Sources */,
+				3FB64EDC0D87104F0009A914 /* FormantFilter.C in Sources */,
+				3FB64EDE0D87104F0009A914 /* SVFilter.C in Sources */,
+				3FB64EDF0D87104F0009A914 /* Alienwah.C in Sources */,
+				3FB64EE00D87104F0009A914 /* Chorus.C in Sources */,
+				3FB64EE10D87104F0009A914 /* Distorsion.C in Sources */,
+				3FB64EE20D87104F0009A914 /* DynamicFilter.C in Sources */,
+				3FB64EE30D87104F0009A914 /* Echo.C in Sources */,
+				3FB64EE40D87104F0009A914 /* Effect.C in Sources */,
+				3FB64EE50D87104F0009A914 /* EffectLFO.C in Sources */,
+				3FB64EE60D87104F0009A914 /* EffectMgr.C in Sources */,
+				3FB64EE70D87104F0009A914 /* EQ.C in Sources */,
+				3FB64EE90D87104F0009A914 /* Phaser.C in Sources */,
+				3FB64EEA0D87104F0009A914 /* Reverb.C in Sources */,
+				3FB64EF90D87104F0009A914 /* MidiIn.C in Sources */,
+				3FB64EFA0D87104F0009A914 /* NULLMidiIn.C in Sources */,
+				3FB64EFD0D87104F0009A914 /* main.C in Sources */,
+				3FB64EFE0D87104F0009A914 /* Bank.C in Sources */,
+				3FB64EFF0D87104F0009A914 /* Config.C in Sources */,
+				3FB64F000D87104F0009A914 /* Dump.C in Sources */,
+				3FB64F020D87104F0009A914 /* Master.C in Sources */,
+				3FB64F030D87104F0009A914 /* Microtonal.C in Sources */,
+				3FB64F040D87104F0009A914 /* Part.C in Sources */,
+				3FB64F050D87104F0009A914 /* Util.C in Sources */,
+				3FB64F0C0D87104F0009A914 /* PAaudiooutput.C in Sources */,
+				3FB64F0D0D87104F0009A914 /* Recorder.C in Sources */,
+				3FB64F0F0D87104F0009A914 /* ADnoteParameters.C in Sources */,
+				3FB64F100D87104F0009A914 /* Controller.C in Sources */,
+				3FB64F110D87104F0009A914 /* EnvelopeParams.C in Sources */,
+				3FB64F120D87104F0009A914 /* FilterParams.C in Sources */,
+				3FB64F130D87104F0009A914 /* LFOParams.C in Sources */,
+				3FB64F150D87104F0009A914 /* PADnoteParameters.C in Sources */,
+				3FB64F160D87104F0009A914 /* Presets.C in Sources */,
+				3FB64F170D87104F0009A914 /* PresetsStore.C in Sources */,
+				3FB64F180D87104F0009A914 /* SUBnoteParameters.C in Sources */,
+				3FB64F1A0D87104F0009A914 /* MIDIEvents.C in Sources */,
+				3FB64F1B0D87104F0009A914 /* MIDIFile.C in Sources */,
+				3FB64F1C0D87104F0009A914 /* Sequencer.C in Sources */,
+				3FB64F1D0D87104F0009A914 /* ADnote.C in Sources */,
+				3FB64F1E0D87104F0009A914 /* Envelope.C in Sources */,
+				3FB64F1F0D87104F0009A914 /* LFO.C in Sources */,
+				3FB64F210D87104F0009A914 /* OscilGen.C in Sources */,
+				3FB64F220D87104F0009A914 /* PADnote.C in Sources */,
+				3FB64F230D87104F0009A914 /* Resonance.C in Sources */,
+				3FB64F240D87104F0009A914 /* SUBnote.C in Sources */,
+				3FB64F250D87104F0009A914 /* ADnoteUI.c in Sources */,
+				3FB64F270D87104F0009A914 /* BankUI.c in Sources */,
+				3FB64F290D87104F0009A914 /* ConfigUI.c in Sources */,
+				3FB64F2B0D87104F0009A914 /* EffUI.c in Sources */,
+				3FB64F2D0D87104F0009A914 /* EnvelopeUI.c in Sources */,
+				3FB64F2F0D87104F0009A914 /* FilterUI.c in Sources */,
+				3FB64F310D87104F0009A914 /* LFOUI.c in Sources */,
+				3FB64F340D87104F0009A914 /* MasterUI.c in Sources */,
+				3FB64F360D87104F0009A914 /* MicrotonalUI.c in Sources */,
+				3FB64F380D87104F0009A914 /* OscilGenUI.c in Sources */,
+				3FB64F3A0D87104F0009A914 /* PADnoteUI.c in Sources */,
+				3FB64F3C0D87104F0009A914 /* PartUI.c in Sources */,
+				3FB64F3E0D87104F0009A914 /* PresetsUI.c in Sources */,
+				3FB64F400D87104F0009A914 /* ResonanceUI.c in Sources */,
+				3FB64F420D87104F0009A914 /* SeqUI.c in Sources */,
+				3FB64F440D87104F0009A914 /* SUBnoteUI.c in Sources */,
+				3FB64F460D87104F0009A914 /* VirKeyboard.c in Sources */,
+				3FB64F480D87104F0009A914 /* WidgetPDial.c in Sources */,
+				3FAF6B690D87E67600FD585B /* XMLwrapper.C in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC0C41F0D883AC000A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mxml;
+			targetProxy = 3FC0C41E0D883AC000A1FF83 /* PBXContainerItemProxy */;
+		};
+		3FC0C4210D883AD400A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = png;
+			targetProxy = 3FC0C4200D883AD400A1FF83 /* PBXContainerItemProxy */;
+		};
+		3FC0C4230D883AD400A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jpeg;
+			targetProxy = 3FC0C4220D883AD400A1FF83 /* PBXContainerItemProxy */;
+		};
+		3FC0C4250D883AD400A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fltk;
+			targetProxy = 3FC0C4240D883AD400A1FF83 /* PBXContainerItemProxy */;
+		};
+		3FC0C4270D883AD400A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = portaudio;
+			targetProxy = 3FC0C4260D883AD400A1FF83 /* PBXContainerItemProxy */;
+		};
+		3FC0C4290D883AD400A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fftw;
+			targetProxy = 3FC0C4280D883AD400A1FF83 /* PBXContainerItemProxy */;
+		};
+		3FC0C42B0D883AD400A1FF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zlib;
+			targetProxy = 3FC0C42A0D883AD400A1FF83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02345980000FD03B11CA0E72 /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1870340FFE93FCAF11CA0CD7 /* English.lproj */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E91AC608A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = SPECIFIC/Macintosh/ZynAddSubFX_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					OS_LINUX,
+					MACOSX,
+					PMIDIIN,
+					PAAUDIOOUT,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../DEPENDENCIES/FFTW/SOURCES/api,
+					../../DEPENDENCIES/MXML/SOURCES/,
+					../../DEPENDENCIES/FLTK/SOURCES/,
+					../../DEPENDENCIES/PORTAUDIO/SOURCES/pa_common,
+					../../DEPENDENCIES/ZLIB/SOURCES/,
+				);
+				INFOPLIST_FILE = SPECIFIC/Macintosh/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					../../DEPENDENCIES/FFTW/OUTPUT,
+					../../DEPENDENCIES/FLTK/OUTPUT,
+					../../DEPENDENCIES/MXML/OUTPUT,
+					../../DEPENDENCIES/PORTAUDIO/OUTPUT,
+					../../DEPENDENCIES/JEPG/OUTPUT,
+					../../DEPENDENCIES/PNG/OUTPUT,
+					../../DEPENDENCIES/ZLIB/OUTPUT,
+				);
+				PRODUCT_NAME = ZynAddSubFX_Debug;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C0E91AC708A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = SPECIFIC/Macintosh/ZynAddSubFX_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					OS_LINUX,
+					MACOSX,
+					PMIDIIN,
+					PAAUDIOOUT,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../DEPENDENCIES/FFTW/SOURCES/api,
+					../../DEPENDENCIES/MXML/SOURCES/,
+					../../DEPENDENCIES/FLTK/SOURCES/,
+					../../DEPENDENCIES/PORTAUDIO/SOURCES/pa_common,
+					../../DEPENDENCIES/ZLIB/SOURCES/,
+				);
+				INFOPLIST_FILE = SPECIFIC/Macintosh/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					../../DEPENDENCIES/FFTW/OUTPUT,
+					../../DEPENDENCIES/FLTK/OUTPUT,
+					../../DEPENDENCIES/MXML/OUTPUT,
+					../../DEPENDENCIES/PORTAUDIO/OUTPUT,
+					../../DEPENDENCIES/JEPG/OUTPUT,
+					../../DEPENDENCIES/PNG/OUTPUT,
+					../../DEPENDENCIES/ZLIB/OUTPUT,
+				);
+				PRODUCT_NAME = ZynAddSubFX;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0E91ACA08A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+				SYMROOT = OUTPUT;
+			};
+			name = Debug;
+		};
+		C0E91ACB08A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+				SYMROOT = OUTPUT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "ZynAddSubFX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91AC608A95435008D54AB /* Debug */,
+				C0E91AC708A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "zynaddsubfx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91ACA08A95435008D54AB /* Debug */,
+				C0E91ACB08A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}
